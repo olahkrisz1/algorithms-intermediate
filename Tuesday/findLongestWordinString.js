@@ -34,13 +34,13 @@ console.log(findLongestWord("May the force be with you"));
 
 // Diagram:
 
-//  i       element     maxLength
-//                          0
-//  0        'May'          3
-//  1        'the'          3
-//  2       'force'         5
-//  3         'be'          5
-//  4        'with'         5
-//  5        'you'          5
+//  i       element     if statement   maxLength
+//                                         0
+//  0        'May'          true           3
+//  1        'the'          false          3
+//  2       'force'         true           5
+//  3         'be'          false          5
+//  4        'with'         false          5
+//  5        'you'          false          5
 
 //   maxlength = 5
